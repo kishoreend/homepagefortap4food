@@ -1,0 +1,48 @@
+.service{
+    display: flex;
+    background-color: rgb(24, 211, 217);
+    padding:20px;
+    margin:40px;
+    position:relative;
+    overflow: hidden;
+    height:33vh;
+    width:50%;
+
+}
+
+.manual{
+    display:flex;
+    position:absolute;
+    bottom:10px;
+   justify-content: center;
+   width:100%;
+
+}
+.service input{
+    display:none;
+}
+.mbtn:hover{
+    background: rgb(132, 109, 153);
+}
+.mbtn{
+    border:2px solid blueviolet;
+    border-radius:50%;
+    padding:5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.mbtn:not(:last-child){
+    margin-right:30px;
+}
+#radio1:checked ~ .first{
+    margin-left:0;
+}
+#radio2:checked ~ .first{
+    margin-left:300px;
+}
+#radio3:checked ~ .first{
+    margin-left:600px;
+}
+#radio4:checked ~ .first{
+    margin-left:900px;
+}

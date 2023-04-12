@@ -1,0 +1,14 @@
+.navback{
+    background-color: #223554;
+    position: fixed;
+    z-index: 100;
+   width:100vw;
+    top:0;
+    left:0;
+   min-height:12vh;
+   
+}
+.color{
+    color:rgb(72, 148, 215);
+    font-size: large;
+}

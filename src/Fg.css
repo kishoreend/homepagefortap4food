@@ -1,0 +1,26 @@
+.fullcard{
+   display:flex;
+   width:320px;
+   height:320px;
+   flex-wrap: wrap;
+   border: 1px solid red;
+   margin:10px;
+}
+img{
+    width:100%;
+    
+    border:1px solid red;
+}
+.content{
+    text-align: center;
+}
+.footer{
+   display: flex;
+   width:100%;
+   justify-content: space-between;
+   margin:0.5% 2%;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+}

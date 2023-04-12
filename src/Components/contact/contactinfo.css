@@ -1,0 +1,28 @@
+.comp{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   text-align: center;
+};
+.headcontact{
+    width:50%;
+    height : 50%;
+    margin-left : 20vh;
+    margin-right : 7vh;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top:8vh; 
+    margin-bottom :-70vh;
+   
+};
+.headcontact1{
+    padding-top:60px;
+    margin-left: -50vh;
+    margin-bottom :-50vh;
+
+}
+.contact{
+    background-color: rgba(245, 247, 249, 0.719);
+    margin-top:-40px
+}

@@ -1,0 +1,167 @@
+.total{
+    background:linear-gradient(rgba(16, 16, 16, 0.994),rgba(30, 0, 0, 0.8));
+    width:100%;
+    height:60vh;
+    color:aliceblue;
+    position: relative;
+    display: flex;
+    margin-top:30px;
+    padding:5px;
+}
+
+.total .half{
+ width:50%;
+}
+
+/* .box{
+    background:#ff6600;
+} */
+.box .boxing{
+    border:2px solid rgba(11, 5, 5, 0.5);
+    border-radius: 5%; 
+   padding:15px;
+   margin:10px;
+   background: linear-gradient(rgb(6, 6, 6),rgba(6, 4, 7, 0.2));
+}
+.box .boxing .text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box .boxing .text div{
+    padding: 20px;
+}
+
+.box .boxing .heading{
+    color:#ff6600;
+    font-weight: 600;
+    font-size:larger;
+    margin-bottom: 10px;
+}
+.skillsgain,.certlang{
+    border:2px solid rgba(11, 5, 5, 0.5);
+    border-radius: 5%; 
+   padding:15px;
+   margin:10px;
+   background: linear-gradient(rgba(6,6,6),rgba(6, 4, 7, 0.2));
+}
+.skillsgain .heading,.heading{
+    color:#ff6600;
+    font-weight: 600;
+    font-size:larger;
+    margin-bottom: 10px; 
+}
+.allskill{
+    display: flex;
+    flex-wrap:wrap;
+}
+.skills{
+    background-color: rgba(90, 171, 200, 0.767);
+    box-shadow: 2px 2px 5px rgb(24, 49, 54);
+    font-size: small;
+    border-radius: 10px;
+    margin:20px;
+    padding: 6px;
+}
+.certlang div img{
+    border:1px solid rgb(76, 73, 73);
+    padding:3px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right:10px;
+}
+.certlang div{
+    margin:0 0 20px 10px;
+    color:#fff;
+    text-shadow: 2px 2px 2px #ff6600;
+
+
+}
+.overview,.overview h1{
+    text-align: center;
+    color:#ff6600;
+}
+.instructor h3{
+ text-align: center;
+ color:#ff6600;
+}
+.instructor .subhead{
+    margin-left: 20px;
+    color:#3cb184
+}
+.instructor .image img{
+    border-radius:50%;
+    height:120px;
+    width:120px;
+    background-color: aqua;
+}
+.instructor .image{
+    display: flex;
+    justify-content: flex-start;
+    margin:10px;
+}
+.instructor .image .icon{
+    margin-left:50px;
+}
+.enroll span{
+    font-size: larger;
+    font-weight: 500;
+    margin:20px 5px 2px 3px;
+}
+.enroll{
+    margin:20px 150px 10px 5px;
+    height:250px;
+    
+}
+.enrollment{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.btn button ,.enrollbtn button{
+    border:none;
+    padding:10px;
+    background-color: rgb(48, 180, 180);
+    color:#361fbb;
+    margin-left:20px;
+
+}
+.heading{
+    text-transform: capitalize;
+    margin-left: 40px;
+    font-size: larger;
+    margin-top:40px;
+}
+.bottomnav{
+    width:100%;
+    background:linear-gradient(rgb(8, 10, 23),rgba(0, 4, 20, 0.737)) ;
+   padding:0;
+  margin:-5px;
+    color:#3cb184
+}
+.total .imag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faqr{
+  
+   background-color: #3cb184;
+   border-radius: 5px;
+}
+.faqr .faqheading{
+    color:#4a3222;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+}
+#faqinput{
+   width:80%;
+   border-radius:10px; 
+   padding:10px;
+   margin-left:15%;
+}
+.faqtext{
+    font-size: medium;
+    font-weight: 400;
+    color:#4f3829
+}

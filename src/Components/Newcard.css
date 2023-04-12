@@ -1,0 +1,17 @@
+.fullcard{
+    display:flex;
+    width:270px;
+    height:270px;
+    border:2px solid gray;
+    padding:5px;
+    box-shadow:4px -4px 4px gray,-4px 0px 4px gray;
+    margin:40px;
+    position:relative;
+}
+img{
+    width:250px ;
+    height:100px;
+}
+.content{
+    text-align: center;
+}

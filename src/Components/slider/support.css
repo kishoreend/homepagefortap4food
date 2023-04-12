@@ -1,0 +1,24 @@
+.servicetext{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+    margin-left : 2vh;
+    margin-top : 2vh;
+
+}
+.subhead {
+    font-size: 35px;
+    font-weight : bold;
+   
+}
+.para{
+    margin-top: 4vh;
+    
+}
+@media(max-width:670px){
+    .servicetext{
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+}

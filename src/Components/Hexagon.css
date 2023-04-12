@@ -1,0 +1,134 @@
+/* .square{
+    width:100px;
+    height:80px;
+    background-color: green
+}
+.triangle{
+    width:100px;
+    height:40px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 60%;
+    background-color: green
+} */
+/* .hexagon{
+    background-color: rgb(51, 40, 40);
+    height:400px;
+    width:400px;
+padding:50px;
+margin:50px;
+} */
+.line1,.line2,.line3,.line4,.line5,.line6{
+    height:7px;
+    width:85px;
+    background-color: blue;
+    position:relative;
+}
+.line7,.line8{
+    width:138.56px;
+    height:2px;
+    background-color: blue;
+    position:absolute;
+}
+.line1{
+  top: 83px;
+  left:83px;
+    transform: rotate(90deg);  
+    
+}
+
+.line4{
+    top:73px;
+    left: 219px;
+      transform: rotate(90deg);  
+  }
+.line2{
+    transform: rotate(-150deg);
+    left:185px;
+    top:16px;
+}
+.line3{
+    transform: rotate(150deg);
+    left:114px;
+    top:15px;
+}
+.line5{
+    transform: rotate(30deg);
+    left:114px;
+    top:133px;
+}
+.line6{
+    transform: rotate(-30deg);
+    left:184px;
+    top:130px;
+}
+ /* .line7{ 
+    top:220px;
+    left:120px;
+}  */
+
+
+
+
+
+
+
+
+/* 
+
+.object{
+    text-align: center;
+    margin:15px;
+  }
+  
+  .imageup img{
+      width: 80vw;
+      height:60%;
+      object-fit: contain;
+      object-position: center;
+      /* margin-top:2% */
+     
+ */ 
+  .imageup{
+     
+     margin-bottom: 100px;
+      width:100vw;
+      height:95vh;
+      background-color:rgb(222, 121, 27);
+      display: flex;
+     
+      text-align: center;
+      position: relative;
+      top:50px;
+      
+      justify-content:center;
+      align-items: center;
+  }
+  .innertext{
+      width:80vw;
+      margin-top:2%;
+      text-align:center;
+      color:rgb(1, 1, 14);
+      /* padding-top:7%; */
+      padding-left:2%;
+  }
+  .imageflex{
+      display: flex;
+      /* justify-content: space-between; */
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* box-shadow:inset 0px 0px 2px #ff6600 ; */
+      /* flex-wrap: wrap; */
+      /* background: linear-gradient(rgb(15, 0, 0),rgba(71, 85, 71, 0.23)); */
+  }
+  .imageflex .image{
+      width:40%;
+  }
+  .innertext2{
+     text-align: left;
+      color:rgb(10, 10, 160);
+      width:50%;
+  }
+  .object h3{
+      color:#ff6600;
+  } 

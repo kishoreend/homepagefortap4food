@@ -1,0 +1,27 @@
+.Comhexa{
+    padding:10px;
+    position:relative;
+    border:1px solid black;
+
+}
+
+.hexa1{
+    position: relative;
+    top:150px;
+    left:200px;
+}
+.hexa2{
+    position: absolute;
+    top:400px;
+  }
+  .hexa3{
+    top:90px;
+  }
+  .hexa1{
+    top:10px;
+  }
+  .hexa1{
+    top:10px;
+  }.hexa1{
+    top:10px;
+  }

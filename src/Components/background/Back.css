@@ -1,0 +1,82 @@
+.wrapback{
+    position: absolute;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    /* background-color:#f78da7; */
+   background-color: azure; 
+}
+
+.hbox div{
+    position: absolute;
+    width: 130px;
+    height:130px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    /* background-image: url(rl9.jpg); */
+    /* background-image: url(rl5.jpg); */
+    background-repeat:no-repeat;
+    background-position:center;
+    /* border:5px solid rgba(255,255,255,0.8) */
+}
+
+.hbox div:nth-child(1){
+    top:12%;
+    left:42%;
+    animation: boxanim 10s linear infinite;
+}
+.hbox div:nth-child(2){
+    top:70%;
+    left:50%;
+    animation: boxanim 7s linear infinite;
+}
+.hbox div:nth-child(3){
+    top:17%;
+    left:6%;
+    animation: boxanim 9s linear infinite;
+}
+.hbox div:nth-child(4){
+    top:20%;
+    left:60%;
+    animation: boxanim 6s linear infinite;
+}
+.hbox div:nth-child(5){
+    top:67%;
+    left:10%;
+    animation: boxanim 12s linear infinite;
+}
+.hbox div:nth-child(6){
+    top:80%;
+    left:70%;
+    animation: boxanim 12s linear infinite;
+}
+.hbox div:nth-child(7){
+    top:60%;
+    left:80%;
+    animation: boxanim 15s linear infinite;
+}
+.hbox div:nth-child(8){
+    top:32%;
+    left:25%;
+    animation: boxanim 16s linear infinite;
+}
+.hbox div:nth-child(9){
+    top:90%;
+    left:25%;
+    animation: boxanim 9s linear infinite;
+}
+.hbox div:nth-child(10){
+    top:20%;
+    left:80%;
+    animation: boxanim 5s linear infinite;
+}
+@keyframes boxanim {
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 0.8;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(0deg);
+        opacity: 0;
+    }
+   
+}

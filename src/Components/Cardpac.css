@@ -1,0 +1,67 @@
+
+.container{
+    border-radius: 10px;
+    width:300px;
+    height:300px;
+    position:absolute;
+    overflow: hidden;
+}
+.button{
+    width:1500px;
+    height:400px;
+    display:flex;
+}
+.button input{
+    display: none;
+}
+.img{
+    width:20%;
+    transition:2s;
+}
+
+.manual{
+    position:absolute;
+    top:80%;
+    width:300px;
+    display:flex;
+    justify-content: center;
+  
+}
+.mbtn{
+    border:2px solid greenyellow;
+    border-radius: 10px;
+    padding:5px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.mbtn:not(:last-child){
+    margin-right:10px;
+}
+
+#radio1:checked ~ .first{
+    margin-left:0;
+}
+#radio2:checked ~ .first{
+    margin-left:-20%;
+}
+#radio3:checked ~ .first{
+    margin-left:-40%;
+}
+#radio4:checked ~ .first{
+    margin-left:-60%;
+}
+
+
+.wrap{
+    
+    display:flex;
+    background-color: blue;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+    height:400px;
+
+}
